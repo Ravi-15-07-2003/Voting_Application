@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Headers */
+h1, h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Forms */
+form {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Messages */
+#message,
+#loginMessage,
+#voteMessage,
+#adminMessage {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  color: #d9534f;
+}
+
+/* Candidate List */
+#candidateList p {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+/* Chart Container */
+canvas {
+  display: block;
+  margin: 0 auto 20px;
+}
